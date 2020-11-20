@@ -7,26 +7,29 @@ Currently it covers tests for Authentication.
 
 ## Quick guide on how to install and run PHP Unit Test for this project: 
 
+1. 
 > git clone https://github.com/bish-al/unitTest.git
 
+2. 
 > composer install
 
-create Database
 
-Make sure .env file is present if not
+3. create Database 
+
+4. Make sure .env file is present if not
 > mv .env.example .env
 
-Edit .env file Database name to the database you created
+5. Edit .env file with correct Database name (one you created on step 3)
 
-Run Migration
+6. 
+> php artisan key:generate
+
+7. Run Migration
 
 > php artisan migrate
 
-Now you should be able to run PHP Unit Test
+8. Now you should be able to run PHP Unit Test
 
 > php artisan test
 
 ![alt text](testResult.png?raw=true)
-
-
- 
