@@ -7,7 +7,7 @@ Currently it covers tests for Authentication.
 
 ## Quick guide on how to install and run PHP Unit Test for this project: 
 
-> git pull https://github.com/bish-al/unitTest.git
+> git clone https://github.com/bish-al/unitTest.git
 
 > composer install
 
