@@ -18,5 +18,8 @@ trait CreatesApplication
         $app->make(Kernel::class)->bootstrap();
 
         return $app;
+
+
+        // small changes to test out git Pull Request by User1 - branch issue1
     }
 }
